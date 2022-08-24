@@ -1,0 +1,9 @@
+a=int(input())
+b=int(input())
+c=a+b
+d=a-b
+e=a*b
+f=a%b
+g=a/b
+h=a//b
+print("addition=",c,"\n","subtraction=",d,"\n","multiplication=",e,"\n","modulus=",f,"\n","division=",g,"\n",h)
