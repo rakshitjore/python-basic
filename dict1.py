@@ -1,0 +1,14 @@
+dict1=[{"name":"mradul","age":25,"city":"indore"},
+{"name":"pratik","age":25,"city":"ujjain"},
+{"name":"rakshit","age":25,"city":"indore"}]
+dict2={"name":"mradul","age":25,"city":"indore"}
+dict3={"name":["mradul","rakshit","pratik"],"age":[25,25,25]}
+print(dict1)
+print(dict2["name"])
+print(dict1[0]["name"])
+print(dict1[1]["age"])
+print(dict1[1])
+print(dict1[0].keys())
+print(dict1[0].values())
+print(len(dict1))
+print(dict3["name"][0])
